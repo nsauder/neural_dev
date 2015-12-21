@@ -4,8 +4,6 @@
 - run things back & forth
 """
 import numpy as np
-
-
 MAX_ITER = 10
 BATCH_SIZE = 100
 eps = 0.001
@@ -65,5 +63,8 @@ def train(X, Y, batch_size, max_iter):
         grads = grad_square_loss(preds, y_data, x_data)
         
         init_weights = init_weights - eps * grads
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b9068356fbf8d6f990ab6ad0b822f40c30752fd0
