@@ -4,6 +4,7 @@
 - run things back & forth
 """
 import numpy as np
+
 MAX_ITER = 10
 BATCH_SIZE = 100
 eps = 0.001
